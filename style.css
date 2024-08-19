@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('./images/back4.jpg');
+    width: 100%;
+    height: 100%;
+
+}
+
+.logo a{
+    float: right;
+    padding: 5px;
+    
+}
+.logo a button{
+    border-radius: 5px;
+    width: 60px;
+    height: 25px;
+    margin-top: 15px;
+    color: rgb(130, 94, 5);
+    text-shadow: 100px;
+}
+.logo img {
+    padding: 5px;
+}
