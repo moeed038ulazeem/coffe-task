@@ -58,3 +58,7 @@ img{
     margin-bottom: -50px;
     padding: 10px;
 }
+.parent a h3{
+    color:rgba(84, 61, 3, 0.904) ;
+    text-align: center;
+}
