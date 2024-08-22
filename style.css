@@ -73,9 +73,9 @@ img{
 }
 
 .card {
-    background-color: #000;
+    background-image: url('./images/Coffee_Beans_Footer1.png');
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
     overflow: hidden;
     width: 200px;
     text-align: center;
@@ -116,29 +116,34 @@ img{
     font-weight: bold;
   color: rgba(84, 61, 3, 0.904);
 }
+.beans h3 a{
+    color: rgba(84, 61, 3, 0.904) ;
+}
 .card-gainer{
     height:200px ;
     display: flex;
     gap: 60px;
     padding: 20px;
-    margin-left: 60px;
+    margin-left: 30px;
 
 
 
 }
 .cardee{
-    background-color: #000;
-    border-radius: 40px;
-    height: 350px;
-    width: 250px;
+    background-color: rgb(223, 142, 35);
+    /*border-radius: 40px;*/
+    height: 280px;
+    width: 200px;
+    border-color: #fff;
+    border-style: dotted;
     
 }
 .card-ima{
-    width: 130px;
+    width: 150px;
     height: 200px; /* Fixed height to ensure all images are consistent */
     margin: 20px;
-    object-fit: cover;
-    border-radius: 20px;
+    
+   /* border-radius: 20px;*/
     
 
 }
@@ -148,4 +153,106 @@ img{
     font-size: 1.2em;
     background-color: #fff;
     width: fit-content;
+    margin-top: -80px;
+    border-radius: 10px;
+    
+}
+
+.class h2{
+    
+    margin-top: 200px;
+    margin-left: 100px;
+    
+    
+}
+.class h2 a{
+    text-align: center;
+    margin-left: 400px;
+    color:  rgba(84, 61, 3, 0.904);
+}
+.card-gain{
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+}
+
+.child{
+    background-color: #fff;
+    height: 280px;
+    width: 200px;
+    border-color: black;
+    border-style: dotted;
+    border-radius: 30px;
+    
+}
+
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px; /* Gap between footer and content */
+}
+
+.footer-left, .footer-right {
+    flex: 1;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: right;
+    float: right;
+}
+
+.footer-left h4, .footer-right h4 {
+    margin-bottom: 10px;
+}
+
+.footer-left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-left ul li {
+    margin-bottom: 8px;
+}
+
+.footer-left a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-left a:hover {
+    color: #f4a261; /* Change color on hover */
+}
+
+.footer-right a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px; /* Adjust size of icons */
+    transition: color 0.3s;
+}
+
+.footer-right a:hover {
+    color: #f4a261; /* Change color on hover */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.footer-bottom p {
+    margin: 0;
 }

@@ -1,0 +1,63 @@
+/* Base styles for the card-gainer section */
+.card-gainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusts columns based on content size */
+    gap: 20px; /* Adjust gap between cards */
+    padding: 20px;
+    margin-left: 30px;
+}
+
+/* Individual card styles */
+.cardee {
+    background-color: rgb(223, 142, 35);
+    height: 280px;
+    width: 200px;
+    border-color: #fff;
+    border-style: dotted;
+    border-radius: 10px; /* Added border-radius for consistency */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Image styles inside the card */
+.card-ima {
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+    object-fit: cover; /* Ensure images cover their container */
+}
+
+/* Title styling inside the card */
+.card-titl {
+    color: #000;
+    font-size: 1.2em;
+    background-color: #fff;
+    width: fit-content;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Media queries for responsive design */
+
+/* For tablets and smaller screens (768px and below) */
+@media (max-width: 768px) {
+    .card-gainer {
+        grid-template-columns: repeat(2, 1fr); /* Two columns layout on smaller screens */
+    }
+}
+
+/* For mobile screens (480px and below) */
+@media (max-width: 480px) {
+    .card-gainer {
+        grid-template-columns: 1fr; /* Single column layout on very small screens */
+    }
+
+    .card-ima {
+        width: 100%; /* Make images responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
