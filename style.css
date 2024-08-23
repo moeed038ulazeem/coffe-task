@@ -3,7 +3,12 @@
     margin: 0;
 }
 body{
-    background-color: bisque;
+    background-image: url('./images/proxy-image.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
 
 }
 
@@ -148,15 +153,15 @@ img{
 
 }
 .card-titl{
-    color: #000;
-    margin-left: 60px;
-    font-size: 1.2em;
-    background-color: #fff;
-    width: fit-content;
-    margin-top: -80px;
-    border-radius: 10px;
+    background-color: black;
+    border-radius: 20px;
+    border-color: white;
+    border-style: dotted;
+    color: white;
+    margin-top: -70px;
     
 }
+
 
 .class h2{
     
@@ -172,20 +177,13 @@ img{
 }
 .card-gain{
     display: flex;
-    padding: 20px;
-    gap: 50px;
+    gap: 60px;
+    margin-left: 30px;
 }
-
-.child{
-    background-color: #fff;
-    height: 280px;
-    width: 200px;
-    border-color: black;
-    border-style: dotted;
-    border-radius: 30px;
-    
+.car{
+    background-color: white;
+    border-radius: 40px;
 }
-
 
 
 footer {
